@@ -36,3 +36,4 @@ public static class DataSeeder
         auctionRepo.Add(auction);
     }
 }
+// 
