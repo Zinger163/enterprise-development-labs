@@ -9,3 +9,4 @@ public class BuyerRepository : IBuyerRepository
     public Buyer GetById(int id) => _buyers.FirstOrDefault(b => b.Id == id);
     public void Add(Buyer buyer) => _buyers.Add(buyer);
 }
+//  
