@@ -12,3 +12,4 @@ public interface IBuyerRepository
     /// <summary> Добавить нового покупателя. </summary>
     void Add(Buyer buyer);
 }
+//   
