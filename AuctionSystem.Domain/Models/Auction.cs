@@ -15,3 +15,4 @@ public class Auction
     /// <summary> Статус завершения аукциона. </summary>
     public bool IsCompleted { get; set; }
 }
+//By Zinger16333
