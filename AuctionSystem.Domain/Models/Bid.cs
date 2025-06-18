@@ -18,3 +18,4 @@ public class Bid
     /// <summary> Время подачи ставки. </summary>
     public DateTime Timestamp { get; set; }
 }
+//
