@@ -18,3 +18,4 @@ public class Buyer
     /// <summary> Список ставок, сделанных покупателем. </summary>
     public List<Bid> Bids { get; set; } = new List<Bid>();
 }
+//  
