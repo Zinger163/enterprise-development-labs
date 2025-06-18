@@ -7,7 +7,7 @@ namespace AuctionSystem.Domain.Tests.Repositories
         {
             // Arrange
             var repo = new BuyerRepository();
-            var buyer = new Buyer { Id = 1, FullName = "»‚‡ÌÓ‚ ».»." };
+            var buyer = new Buyer { Id = 1, FullName = "√à√¢√†√≠√Æ√¢ √à.√à." };
 
             // Act
             repo.Add(buyer);
@@ -15,7 +15,7 @@ namespace AuctionSystem.Domain.Tests.Repositories
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal("»‚‡ÌÓ‚ ».».", result.FullName);
+            Assert.Equal("√à√¢√†√≠√Æ√¢ √à.√à.", result.FullName);
         }
 
         [Fact]
@@ -23,6 +23,7 @@ namespace AuctionSystem.Domain.Tests.Repositories
         {
             // Arrange
             var repo = new BuyerRepository();
+            //Zinger16333
 
             // Act
             var result = repo.GetById(999);
