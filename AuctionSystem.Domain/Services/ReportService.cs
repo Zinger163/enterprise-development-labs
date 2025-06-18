@@ -53,4 +53,5 @@ namespace AuctionSystem.Domain.Services
             return resultBuyers.OrderBy(b => b.FullName).ToList();
         }
     }
-}
+} 
+//Zinger1633
