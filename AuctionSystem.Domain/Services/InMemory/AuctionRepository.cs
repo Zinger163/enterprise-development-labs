@@ -28,7 +28,7 @@ public class AuctionRepository : IAuctionRepository
     {
         throw new NotImplementedException();
     }
-
+// 
     List<Auction> IAuctionRepository.GetByDate(DateTime date)
     {
         throw new NotImplementedException();
