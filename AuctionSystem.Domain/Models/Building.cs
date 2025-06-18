@@ -24,3 +24,4 @@ public class Building
     /// <summary> ID покупателя (если продано). </summary>
     public int? BuyerId { get; set; }
 }
+// 
