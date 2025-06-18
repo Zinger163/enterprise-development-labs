@@ -13,3 +13,4 @@ public interface IAuctionRepository
     List<Auction> GetByDate(DateTime date);
 
 }
+//   
